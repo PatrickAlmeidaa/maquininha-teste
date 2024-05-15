@@ -1,0 +1,77 @@
+header{
+    width: 100%;
+    padding: 28px 8%;
+    background-color: rgba(228, 224, 224, 0.2);
+    position:sticky;
+    top: 0;
+}
+
+#navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#treinamento_id{
+    width: 130px;
+}
+
+#nav_list{
+    font-size: 18px;
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #e49493;
+    font-weight: 600;
+}
+
+.nav-item.active a{
+    color: #e4100c;
+    border-bottom: 3px solid #D8130E;
+}
+
+#mobile_btn{
+    display: none;
+}
+
+#mobile_menu{
+    display: none;
+}
+/*----------------------------------------------------------------------*/
+@media screen and (max-width: 1170px) {
+    #nav_list{
+        display: none;
+    }
+
+    #mobile_btn{
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        color: #D8130E;
+        cursor: pointer;
+    }
+
+    #mobile_menu.active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile_nav_list{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    .nav-item{
+        list-style: none;
+        text-align: center;
+    }
+}

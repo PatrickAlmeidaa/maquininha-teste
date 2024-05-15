@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src\styles\style.css">
+    <link rel="stylesheet" href="src\styles\header.css">
+    <link rel="stylesheet" href="src\styles\home.css">
+    <link rel="stylesheet" href="src\styles\products.css">
+    <link rel="stylesheet" href="src\styles\test.css">
+    <link rel="stylesheet" href="src\styles\challenge.css">
+    <link rel="stylesheet" href="src\styles\end.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Maquininha</title>
+</head>
+<body>
+
+    <header>
+        <nav id="navbar">
+
+            <img  src="src\img\treinamento_logo.png" id="treinamento_id">
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#test">Desafio</a>
+                </li>
+            </ul>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#produts">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#test">Desafio</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="content">
+
+        <section id="home">
+
+            <div id="banner">
+                <img src="src\img\inicial_img.jpeg" id="home_img_id">
+            </div>
+        </section>
+
+        <section id="initial">
+
+            <div id="cta">
+                <h1 class="title">
+                    MÁQUINA DE
+                </h1>
+                <h1 class="title-2">
+                    CARTÕES<span> BIN</span>
+                </h1>
+                <h3 class="sub-title">
+                    PARCERIA   COM   O   <img src="src\img\claro_logo.png" id="claro_id">
+                </h3>
+            </div>
+        </section>
+    
+        <section id="products">
+            <div id="cta">
+                <p class="info">
+                    Sempre buscando oferecer um
+                    <strong>HUB de soluções integradas</strong> capaz
+                    de atender diversas necessidades dos 
+                    clientes, a Claro empresas passa a 
+                    disponibilizar a máquina de cartões Bin, 
+                    em parceria com o Claro pay, que passa a 
+                    disponibilizar para contratação <strong>3 opções 
+                    de máquina de cartão</strong>
+                </p>
+                <p class="more-info">
+                    Clique nos botões para saber mais
+                </p>
+            </div>
+        </section>
+
+        <section id="feature">
+
+            <div id="cta_buttons">
+                <a class="btn-default" id="btn_1">
+                    <img id="maq_img" src="src/img/maq_1.png">
+                    <img src="src/img/more_info.png">
+                </a>
+
+                <a class="btn-default" id="btn_2">
+                    <img id="maq_img" src="src/img/maq_2.png">
+                    <img src="src/img/more_info.png">
+                </a>
+
+                <a class="btn-default" id="btn_3">
+                    <img id="maq_img" src="src/img/maq_3.png">
+                    <img src="src/img/more_info.png">
+                </a>
+            </div>
+
+            <div id="caixa1" class="caixa">
+                <p class="description-title">
+                    <strong>POS/TEF Fixo</strong>
+                </p>
+                
+                <p class="description-info">
+                    Maquininha ideal para pagamentos no balcão, 
+                    chega como uma solução moderna que permite 
+                    realizar vendas a partir de uma automação 
+                    comercial integrada com a plataforma de 
+                    pagamentos SiTef.
+                </p>
+            </div>
+
+            <div id="caixa2" class="caixa">
+                <p class="description-title">
+                    <strong>SMAR POS/TEF Móvel</strong>
+                </p>
+                <p class="description-info">
+                    Máquina sem fio ideal para estabelecimentos 
+                    que precisam de mobilidade e desejam receber 
+                    pagamentos integrados ao SiTef, 
+                    com ou sem automação comercial.
+                </p>
+            </div>
+
+            <div id="caixa3" class="caixa">
+                <p class="description-title">
+                    <strong>TAP ON PHONE</strong>
+                </p>
+                <p class="description-info">
+                    Solução ideal para atendimento ao cliente em 
+                    horários de pico de movimento 2 delivery 
+                    já que o lojista pode utilizar o seu próprio 
+                    celular para receber suas vendas. Cada CNPJ que 
+                    utilizar o Tap on Phone terá direito 
+                    à 20 acessos sem custos.
+                </p>
+            </div>
+        </section>
+
+        <section id="complement">
+            <div id="cta">
+                <p class="complement-info">
+                    Muito bem!
+                </p>
+                <p class="complement-info">
+                    Agora que você já relembrou informações importantes a respeito da parceria,
+                    que tal uma atividade para
+                    testar seus conhecimentos?
+                </p>
+            </div>
+        </section>
+
+        <section id="test">
+            <div id="cta">
+                <p class="introduction">
+                    Para completar a atividade,
+                    você deverá auxiliar alguns clientes 
+                    Claro a encontrar o produto FISERV ideal!
+                </p>
+            </div>
+        </section>
+
+        <section id="tips_test">
+            <div id="cta_tips">
+                <p class="tips-init">
+                    Confira o passo a passo:
+                </p>
+                <p class="tips">
+                    1. Para iniciar, você deverá clicar na 
+                    imagem de um dos clientes disponíveis;
+                </p>
+                <p class="tips">
+                    2. Em seguida, faça uma análise
+                    de perfil considerando as questões
+                    de cada cliente e clique na opção
+                    de produto que melhor corresponde
+                    as necessidades apresentadas.
+                </p>
+                <p class="alert">
+                    <strong>Importante:</strong> Repita o processo até que 
+                    todos os clientes tenham sido atendidos.
+                </p>
+            </div>
+        </section>
+
+        <section id="challenge">
+
+            <div id="banner">
+                <img src="src\img\padeiro.png" id="challenge_img_id">
+            </div>
+        </section>
+
+        <section id="problem">
+            <div id="cta_problem">
+                <p class="problem-gabriel">
+                    Senhor Gabriel entraem contato 
+                    buscando adquirir um pacote de 
+                    banda larga para sua padaria de 
+                    bairro que está em período de 
+                    expansão. Os planos do cliente 
+                    envolvem uma área nova de cafeteria 
+                    e também entregas via delivery,
+                    o cliente comenta estar preocupado 
+                    com a organização logística de todas 
+                    essas mudanças. Você fala sobre 
+                    as máquinas FISERV, mas o cliente 
+                    não demonstra interesse e diz já 
+                    possuir duas maquininhas de cartão, 
+                    uma fixa e uma móvel e garante
+                    que elas o atendem muito bem.
+                </p>
+            </div>
+        </section>
+
+        <section id="quest">
+            <div id="question">
+                <p class="question-title">
+                    <strong>QUAL SERIA O PRODUTO IDEAL?</strong>
+                </p>
+
+                <p class="question-sub">
+                    Selecione uma das opções de resposta
+                </p>
+            </div>
+        </section>
+
+        <section id="answers">
+            <div class="btn-group">
+                <button class="btn-answers" id="botao1">POS/TEF Fixo</button>
+                <button class="btn-answers" id="botao2">SMAR POS/TEF Móvel</button>
+              </div>
+              <div class="btn-group">
+                <button class="btn-answers" id="botao3">TAP ON PHONE</button>
+                <button class="btn-answers" id="botao4">POS Controle</button>
+              </div>
+              <div id="mensagem" class="message"></div>
+        </section>
+
+        <section id="end">
+            <did id="cta_end">
+                <p class="end-message">
+                    Viu só como os produtos FISERV 
+                    <strong>se encaixam bem nos mais
+                    diversos perfis de clientes?</strong>
+                </p>
+            </did>
+        </section>
+    </main>
+
+    <script src="src\javascript\script.js"></script>
+</body>
+</html>
